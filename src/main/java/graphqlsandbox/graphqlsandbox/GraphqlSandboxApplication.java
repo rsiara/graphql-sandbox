@@ -9,4 +9,8 @@ public class GraphqlSandboxApplication {
     public static void main(String[] args) {
         SpringApplication.run(GraphqlSandboxApplication.class, args);
     }
+
+    private static void init_data(){
+
+    }
 }
