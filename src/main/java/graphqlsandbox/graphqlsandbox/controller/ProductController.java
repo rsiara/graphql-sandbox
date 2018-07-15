@@ -13,5 +13,6 @@ public class ProductController {
     @RequestMapping(method = RequestMethod.GET, produces = {MediaType.APPLICATION_JSON_VALUE})
     public Product product(){
         return new Product("Miska plastikowa", "Vileda");
+
     }
 }
